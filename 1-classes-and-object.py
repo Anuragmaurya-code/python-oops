@@ -15,6 +15,6 @@ Computer.config(comp1) # as there are many object for same class
 # here comp1 goes to self of config
 
 a=5
-a.bit_length
+
 
     
