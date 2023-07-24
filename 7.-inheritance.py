@@ -1,10 +1,12 @@
+#inheritance  methods and variables from one class to another
 # subclass can access all the features of superclass  but vice versa is not true
 class A: # superclass or parent class
+    p="ff"
     def feature1(self):
         print("Feature 1 is working")
         
     def feature2(self):
-        print("Feature 3 is working")
+        print("Feature 2 is working")
 
 class B(A): # inheriting features of A / sub class or child class / single level inheritance
     def feature3(self):
@@ -30,5 +32,5 @@ class F(C,E): #multiple level inheritance
 a1=A()
 a1.feature1()
 b1=B()
-b1.feature1()
+print(b1.p)
 c1=C()
